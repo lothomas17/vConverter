@@ -24,12 +24,15 @@ There are two ways to use vConverter. If you want to run it via command line, yo
 Gooey:https://github.com/chriskiehl/Gooey
 
 Once you have the dependencies installed, you can just call:
-    python vConverter.py
+
+    >>python vConverter.py
 
 If you want to generate a binary file that can be run then, you will also need to install pyinstaller, which can be found at http://www.pyinstaller.org/.
 
 Once you have the dependencies installed for pyinstaller, just run
-    pyinstaller build.spec
+
+    >>pyinstaller build.spec
+    
 You will find the binary in the dist directory.
 
 ##References
