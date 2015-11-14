@@ -6,26 +6,9 @@ import getpass
 import re
 
 from ConfigParser import SafeConfigParser
-import argparse
+
 from gooey import Gooey
 from gooey import GooeyParser
-
-tasks = []
-
-#Sets up the paramters and filename
-# parser=SafeConfigParser()
-# parser.read('config.ini')
-# OPTIONS=parser.get('PARAMETERS','params')
-# FILENAME=parser.get('FILENAME','file_name')
-
-# OPTIONS = OPTIONS.split(',')
-
-# tempWord = OPTIONS[0]
-# tempWord = " " + tempWord
-# OPTIONS[0] = tempWord
-
-
-
 
 def usage():
     print
